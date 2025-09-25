@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'SUIT Variable', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    color: #333;
+}
+
+#top {
+    background-color: #333;
+    color: #fff;
+}
+
+.inner_top {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.util {
+    display: flex;
+    margin: 6px 0;
+}
+
+.util li {
+    margin-left: 20px;
+}
+
+header {
+    border-bottom: 3px solid red;
+}
+
+.inner_header {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+    align-items: center;
+}
+
+.gnb {
+    display: flex;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.gnb li {
+    position: relative;
+}
+
+.gnb>li>a {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 26px;
+    padding-bottom: 22px;
+}
+
+.gnb li a:hover {
+    color: red;
+}
+
+.submenu li a {
+    background-color:red;
+    color: #fff;
+    display: block;
+    padding: 6px 10px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+
+}
+
+.submenu li a:hover {
+    background-color:  rgb(134, 9, 9);
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100px;
+   
+}
+
+.gnb li:hover .submenu {
+    display: block;
+}
+
+#container {
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lnb_wrap {
+    width: 200px;
+}
+
+.lnb_wrap h2 {
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+.lnb li a {
+    display: block;
+    border-bottom: 1px solid #cacaca;
+    padding: 10px 0;
+}
+
+.lnb li a:hover {
+    color: red;
+    background: url(../images/menu_on.png) no-repeat right center;
+}
+
+.content {
+    width: 750px;
+    background-image: url(../images/bg_meat.gif);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.content h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.gray {
+    color: #999;
+}
+
+.slogan {
+    font-size: 20px;
+    font-weight: 800;
+    color: red;
+    margin: 40px 0 20px;
+    line-height: 1.5em;
+}
+
+.meat {
+    background: url(../images/meat.jpg) no-repeat right red;
+    height: 260px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.meat_exp {
+    background-color: #eee;
+    border: 1px solid #cacaca;
+    padding: 30px;
+}
+
+.meat_title {
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#footer_link {
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+}
+
+.inner_footer_link {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.inner_footer_link li {
+    margin-right: 20px;
+}
+
+#footer {
+    margin: 0 auto;
+    background-image: url(../images/foot_logo.gif);
+    background-repeat: no-repeat;
+    background-position: right top 30px;
+}
+
+#footer p {
+    padding-top: 30px;
+}
+
+#footer span {
+    color: red;
+}
